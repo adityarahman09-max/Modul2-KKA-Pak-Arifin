@@ -42,6 +42,7 @@ Penerapan Pengambilan Keputusan Bisnis:
 - Evaluasi Menu: Mempertimbangkan efisiensi biaya atau penggantian menu jika ada produk yang penjualannya sangat rendah.
 
 Analisis Proyek : 
+
 6. Tahap yang Paling Menantang dan Cara Mengatasinya
 Tahap Data Cleaning merupakan tahap yang paling menantang. Tantangan utamanya adalah menangani format data yang tidak konsisten pada kolom nilai (seperti adanya teks "poin" dan angka pencilan/outlier 999), serta menentukan penanganan missing value yang tepat tanpa merusak distribusi data.   Cara Mengatasinya: Kami menggunakan manipulasi string dan konversi numerik untuk membersihkan teks, mengganti nilai pencilan 999 menjadi missing value, lalu mengimputasinya menggunakan median agar tidak sensitif terhadap nilai ekstrem.   
 
