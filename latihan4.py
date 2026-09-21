@@ -10,8 +10,10 @@ print(df.isnull().sum())
 df['terjual'] = df['terjual'].fillna(0) # Isi missing value terjual dengan 0
 df = df.dropna(subset=['menu'])         # Hapus baris jika menu kosong
 
+
 print("\n=== Jumlah Missing Value Setelah Cleaning ===")
 print(df.isnull().sum())
 
 # Simpan hasil sementara ke file baru
 df.to_csv('data_kantin_clean1.csv', index=False)
+
